@@ -28,8 +28,8 @@ img {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    margin-top: 70;
-    margin-bottom: 97;
+    margin-top: 70px;
+    margin-bottom: 97px;
     width: 100%;
     list-style: none;
     vertical-align: middle;
@@ -64,13 +64,13 @@ img {
   /* my main */
   /* features */
 .features {
-    list-style: none;
-    margin: 0;
+    max-width:0;
+    margin: 0 auto;
     padding: 0;
    font-size: 0;
   }
 .part {
-    margin-bottom: 128 px;
+    margin-bottom: 128px;
     width: 420px;
     margin: 0;
     padding: 0;
@@ -78,7 +78,7 @@ img {
     display: inline-block;
     font-size: 14px;
     margin-right: 60px;
-    margin-left: 150 px;
+    vertical-align:middle;
 }
 .part :last-child {
 margin-right: 0px;
@@ -91,46 +91,41 @@ margin-bottom: 0;
 }
 .little {
     width: 63px;
-    height: 11px;
     font-family: Ubuntu;
     font-size: 14px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal 17px;
     letter-spacing: normal;
     color: #b4ad9e;
     text-transform: uppercase;
-    margin-bottom: 50 px;
+    margin-bottom: 50px;
     margin-top: 26px;
   }
 .title {
     width: 407px;
-    height: 30px;
     font-family: PlayfairDisplay;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 36 px;
     letter-spacing: normal;
     text-align: normal;
     color: #626262;
     text-transform: uppercase;
-    margin-top: 26;
-    margin-bottom: 50 px;
+    margin-top: 26px;
+    margin-bottom: 50px;
   }
 .text {
     width: 414px;
-    height: 63px;
     font-family: PlayfairDisplay;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 24 px;
+    line-height: 24px;
     letter-spacing: normal;
-    margin-top: 26;
+    margin-top: 26px;
     color: #626262;
   }
 /* button */
@@ -138,7 +133,6 @@ margin-bottom: 0;
     border: 0;
     margin: 0;
     width: 96px;
-    height: 17px;
     font-family: PlayfairDisplay;
     font-size: 20px;
     font-weight: normal;
