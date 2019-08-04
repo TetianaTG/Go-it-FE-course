@@ -78,7 +78,7 @@ img {
     vertical-align:top;
     margin-left: 0;
 }
-.part :nth-child(2n) {
+.part:nth-child(2n) {
   margin:0px;
  }
 .little {
