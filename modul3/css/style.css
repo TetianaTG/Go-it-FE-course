@@ -83,6 +83,9 @@ img {
     vertical-align:top;
     margin-left: 0;
 }
+.part :nth-child(2n) {
+  margin:0px;
+ }
 .little {
     width: 63px;
     font-family: Ubuntu;
