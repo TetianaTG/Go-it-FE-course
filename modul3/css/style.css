@@ -18,6 +18,7 @@ body {
     width: 900px;
     margin: 0 auto;
     background-color: #ffffff;   
+    font-size: 0;
 }
 img {
     display:block;
@@ -63,11 +64,12 @@ img {
   /* header end */
   /* my main */
   /* features */
-.features {
-    max-width:0;
+ .features {
+    max-width: 900;
     margin: 0 auto;
     padding: 0;
-   font-size: 0;
+    font-size: 0;
+    margin-left:0;
   }
 .part {
     margin-bottom: 128px;
@@ -78,16 +80,8 @@ img {
     display: inline-block;
     font-size: 14px;
     margin-right: 60px;
-    vertical-align:middle;
-}
-.part :last-child {
-margin-right: 0px;
-} 
-.part :nth-child(2n) {
- margin-right: 60px;
-} 
-.part :nth-child(n+6) {
-margin-bottom: 0;
+    vertical-align:top;
+    margin-left: 0;
 }
 .little {
     width: 63px;
@@ -110,7 +104,6 @@ margin-bottom: 0;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
-    text-align: normal;
     color: #626262;
     text-transform: uppercase;
     margin-top: 26px;
@@ -130,20 +123,25 @@ margin-bottom: 0;
   }
 /* button */
 .loadmore {
-    border: 0;
-    margin: 0;
-    width: 96px;
-    font-family: PlayfairDisplay;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: left;
-    color: #626262;
-      }
-.button div {
-        margin-left: 358px;
-        margin-bottom: 70px;
-    }
+  border: 0;
+  margin: 0;
+  padding: 20px 34px 21px 34px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  color: #626262;
+  cursor: pointer;
+  border: 2px solid #626262;
+  background-color: #ffffff;
+}
+
+.button_div {
+  margin-left: 358px;
+  margin-bottom: 70px;
+  margin-top: 54px;
+}
+.loadmore:hover,
+.loadmore:focus {
+    color: #03a9f4;
+    border: 2px solid #03a9f4;
+}
