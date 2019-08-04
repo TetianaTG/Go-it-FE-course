@@ -40,7 +40,8 @@ img {
   display: inline-block;
   margin-right: 77px;
 }
-.site-navigation li :not(:last child) {
+.site-navigation li :not(:last-child)
+{
     margin-right: 77px;
 }
 .site-navigation a {
@@ -60,7 +61,7 @@ img {
   /* my main */
   /* features */
  .features {
-    max-width: 900;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0;
     font-size: 0;
@@ -71,7 +72,6 @@ img {
     width: 420px;
     margin: 0;
     padding: 0;
-    height: 0 auto;
     display: inline-block;
     font-size: 14px;
     margin-right: 60px;
@@ -103,7 +103,7 @@ img {
     font-stretch: normal;
     letter-spacing: normal;
     color: #626262;
-    text-transform: uppercase;
+    text-transform:normal;
     margin-top: 26px;
     margin-bottom: 50px;
   }
