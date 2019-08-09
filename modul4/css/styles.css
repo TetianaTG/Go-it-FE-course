@@ -7,7 +7,7 @@ html {
     box-sizing: inherit;
   }
 body {
-   font-family: sans-serif;
+   font-family: 'OpenSans' sans-serif;
    font-size: 18px;
    line-height: 26px;
   }
@@ -51,7 +51,7 @@ margin-right: 36px;
 }
 .site-navigation a {
 text-decoration: none;
-color: #0f0101;
+color: #000000;
 font-family: "Open Sans";
 font-size: 14px;
 font-weight: 700;
@@ -65,10 +65,6 @@ margin-bottom: 111px;
 }
 /* site navigation the end*/
 /* my main*/
-.featured-product 
-{
-    margin-top:0;
-}
 .features-title {
 text-align: center;
 color: #515151;
@@ -82,14 +78,12 @@ text-transform: uppercase;
 .features-title::after {
 content: "";
 display: block;
-margin: 0;
 height: 6px;
 margin-top: 27px;
 width: 166px;
 background-color: #1abc9c;
 }
 .features-list {
-    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -106,16 +100,17 @@ background-color: #1abc9c;
     max-width: 255px;
     height: 322px;
 }
-.features-list-productname {
+.features-list-product.name {
 float: left;
 margin-top: 0;
 padding: 6px 14px;
 background-color: #323232;
 color: #ffff;
-width: 203px;
+width: 200px;
 }
-.features-list-productprice {
+.features-list-product.price { 
 float: right;
+margin: 0;
 width:52px;
 padding:6px 12px;
 background-color: #8c8c8c;
@@ -123,9 +118,11 @@ color: #ffff;
 font-size: 18px;
 line-height:32px;
 }
-.features-list-productprice a:hover,
-.features-list a:focus {
-  color: #1abc9c;
+.features-list-product:hover .features-list-product.name {
+  background-color: #1abc9c;
+}
+.features-list-product:hover .features-list-product.price {
+    background-color: #1abc9c;
 }
 /* new news */
 .features-news { 
