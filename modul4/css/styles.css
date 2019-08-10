@@ -28,8 +28,8 @@ img {
   }
   /* My header*/
 .page-header {
-margin-top: 38px;
-margin-bottom: 88px;
+   margin-top: 38px;
+   margin-bottom: 88px;
 }
 /* site navigation */
 .site-logo {
@@ -37,27 +37,27 @@ margin-bottom: 88px;
     vertical-align: middle;
   }
 .site-navigation {
-float: right;
-margin:0;
-padding:0;
-text-align: middle;
-list-style: none;
+   float: right;
+   margin:0;
+   padding:0;
+   text-align: middle;
+   list-style: none;
 }
 .site-navigation li {
-float:left;
+  float:left;
 }
 .site-navigation li:not(:last-child) {
-margin-right: 36px;
+  margin-right: 36px;
 }
 .site-navigation a {
-text-decoration: none;
-color: #000000;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 700;
-line-height: 11px;
-text-transform: uppercase;
-margin-bottom: 111px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  text-transform: uppercase;
+  margin-bottom: 111px;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
@@ -66,40 +66,40 @@ margin-bottom: 111px;
 /* site navigation the end*/
 /* my main*/
 .features-title {
-text-align: center;
-color: #515151;
-font-family:'Roboto', sans-serif;
-font-size: 48px;
-font-weight: 900;
-line-height: 58px;
-margin-bottom: 98px;
-text-transform: uppercase;
-margin-top: 100px;
+  text-align: center;
+  color: #515151;
+  font-family:'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  margin-bottom: 98px;
+  text-transform: uppercase;
+  margin-top: 100px;
 }
 .features-title::after {
-content: "";
-display: block;
-margin: 0 auto;
-height: 6px;
-margin-top: 27px;
-width: 166px;
-background-color: #1abc9c;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 6px;
+  margin-top: 27px;
+  width: 166px;
+  background-color: #1abc9c;
 }
 .feature {
-    display:block;
+  display:block;
 }
 .features-list {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 .features-list-product{
-    float: left;
-    max-width: 255px;
-    text-transform: uppercase;
-    margin-bottom: 28px;
+   float: left;
+   max-width: 255px;
+   text-transform: uppercase;
+   margin-bottom: 28px;
     }
 .features-list-product:not(:nth-child(4n+4)) {
-        margin-right:30px;
+    margin-right:30px;
     }
 .features-list img {
     float: left;
@@ -107,89 +107,89 @@ background-color: #1abc9c;
     height: 320px;
 }
 .features-list.name {
-margin:0;
+   margin:0;
 }
 .features-list.name {
-float: left;
-margin-top: 0;
-padding: 6px 14px;
-background-color: #323232;
-color: #ffff;
-width: 200px;
-font-size: 18px;
-line-height:32px;
+  float: left;
+  margin-top: 0;
+  padding: 6px 14px;
+  background-color: #323232;
+  color: #ffff;
+  width: 200px;
+  font-size: 18px;
+  line-height:32px;
 
 }
 .features-list.price { 
-float: left;
-margin: 0;
-width:52px;
-padding:6px 12px;
-background-color: #8c8c8c;
-color: #ffff;
-font-size: 18px;
-line-height:32px;
+  float: left;
+  margin: 0;
+  width:52px;
+  padding:6px 12px;
+  background-color: #8c8c8c;
+  color: #ffff;
+  font-size: 18px;
+  line-height:32px;
 }
 .features-list-product:hover .features-list.name {
   background-color: #1abc9c;
 }
 .features-list-product:hover .features-list.price {
-    background-color:#7fd9c7;
+  background-color:#7fd9c7;
 }
 /* new news */
 .features-news { 
-    margin:0;
-    padding:0;
-    list-style: none;
+  margin:0;
+  padding:0;
+  list-style: none;
 }
 .features-news-picture {
-    float: left;
-    max-width: 350px;
-    height: 262px;
-    margin-bottom: 80px;
+   float: left;
+   max-width: 350px;
+   height: 262px;
+   margin-bottom: 80px;
 }
 .features-news-picture:not(:last-child) {
-    margin-right: 30px;
+   margin-right: 30px;
 }
 .paragraf-one {
 /* Style for "Lorem Ipsu" */
-margin-top: 14px;
-color: #555252;
-font-family: "Roboto", sans-serif;
-font-size: 18px;
-font-weight: 600;
-line-height: 26px;
+  margin-top: 14px;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
 }
 .paragraf-one::after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 136px;
-    background-color: #4ec6ab;
-    text-align: center;
-    margin-top: 11px;
-    }
+  content: "";
+  display: block;
+  height: 3px;
+  width: 136px;
+  background-color: #4ec6ab;
+  text-align: center;
+  margin-top: 11px;
+}
 .paragraf-two {
     /* Style for "Nam nec te" */
-color: #555252;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
 }
 /* Text style for "N, am nec" */
 .readmore {
     /* Style for "Rectangle" */
-width: 160px;
-height: 52px;
-background-color: #4ec6ab;
-margin-bottom: 82px;
+  width: 160px;
+  height: 52px;
+  background-color: #4ec6ab;
+  margin-bottom: 82px;
 /* Style for "Read More" */
-color: #ffffff;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 300;
-line-height: 26px;
-border-radius:5px;
-cursor: pointer;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  border-radius:5px;
+  cursor: pointer;
 }
