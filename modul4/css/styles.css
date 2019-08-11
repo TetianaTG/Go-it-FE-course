@@ -12,8 +12,8 @@ body {
    line-height: 26px;
   }
 .container {
-  width: 1110px;
-  margin: 0 auto;
+   width: 1110px;
+   margin: 0 auto;
 }
 img {
     display: block;
@@ -91,6 +91,9 @@ img {
 .features-list {
   padding: 0;
   list-style: none;
+  color: #ffff;
+  font-size: 18px;
+  line-height:32px;
 }
 .features-list-product{
    float: left;
@@ -114,11 +117,7 @@ img {
   margin-top: 0;
   padding: 6px 14px;
   background-color: #323232;
-  color: #ffff;
   width: 200px;
-  font-size: 18px;
-  line-height:32px;
-
 }
 .features-list.price { 
   float: left;
@@ -126,9 +125,6 @@ img {
   width:52px;
   padding:6px 12px;
   background-color: #8c8c8c;
-  color: #ffff;
-  font-size: 18px;
-  line-height:32px;
 }
 .features-list-product:hover .features-list.name {
   background-color: #1abc9c;
