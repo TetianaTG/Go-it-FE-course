@@ -110,14 +110,13 @@ img {
     height: 320px;
 }
 .features-list.name {
-   margin:0;
-}
-.features-list.name {
+  margin: 0;
   float: left;
   margin-top: 0;
   padding: 6px 14px;
   background-color: #323232;
   width: 200px;
+  font-weight: 400;
 }
 .features-list.price { 
   float: left;
@@ -125,6 +124,7 @@ img {
   width:52px;
   padding:6px 12px;
   background-color: #8c8c8c;
+  font-weight: 400;
 }
 .features-list-product:hover .features-list.name {
   background-color: #1abc9c;
