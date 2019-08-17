@@ -161,7 +161,7 @@ img {
   text-align: center;
   margin-top: 0;
 }
-.new-collection-title ::after{
+.new-collection-title::after{
   content: "";
   display: block;
   margin: 0 auto;
@@ -181,7 +181,6 @@ img {
   float: left;
   width: 255px;
   margin-bottom: 100px;
-  padding: 0;
 }
 .new-collection-picture:not(:nth-child(4n+4)) {
   margin-right: 30px;
@@ -190,7 +189,6 @@ img {
   position: absolute;
   display: block;
   float: left;
-  top: 282px;
   padding: 6px,14px;
   margin-top:  0;
   padding: 6px 14 px;
@@ -208,7 +206,6 @@ img {
 .collection-price {
   position: absolute;
   right: 0;
-  top: 282px;
   margin: 0;
   margin-top: 0;
   padding: 5px 12 px;
