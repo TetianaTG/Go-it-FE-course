@@ -160,6 +160,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 80px;
 }
 .new-collection-title::after{
   content: "";
@@ -169,18 +170,25 @@ img {
   margin:24px auto 0px;
   width: 166px;
   background-color: #1abc9c;
+  margin-bottom: 25px;
+}
+.new-collection {
+  width: 1110px;
+  margin: 0 auto;
 }
 .new-collection-list {
   padding: 0;
   margin: 0;
   padding: 0;
+  margin-top: 0;
   list-style: none;
 }
 .new-collection-picture {
   position: relative;
   float: left;
   width: 255px;
-  margin-bottom: 100px;
+  height: 0 auto;
+  margin-bottom: 130px;
 }
 .new-collection-picture:not(:nth-child(4n+4)) {
   margin-right: 30px;
@@ -192,6 +200,8 @@ img {
   padding: 6px,14px;
   margin-top:  0;
   padding: 6px 14 px;
+  padding-left: 10px;
+  padding-top: 5px;
   width: 204px;
   height: 40px;
   background-color: #323232;
@@ -218,32 +228,40 @@ img {
   text-decoration: none;
   color: #ffffff;
 }
-.new-collection-picture:hover.collection-name {
+.new-collection-picture:hover .collection-name {
   background-color: #1abc9c;
 }
-.new-collection-picture:hover.collection-price {
+.new-collection-picture:hover .collection-price {
   background-color:#7fd9c7;
 }
 .new-collection-button {
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: 10px;
   opacity: 0;
   background-color: rgba (0, 0, 0, 0.6);
   width: 235px;
-  height: 260px;
-  background-color: #1abc9c;
+  height: 243px;
   border: 1px solid  #1abc9c;
+  transition: 0.3s;
+}
+.new-collection-picture:hover .new-collection-button {
+  opacity:1;
 }
 .button-heart {
- background-image: url(../img/icons/heart.png);
- width:50px;
- height: 50px;
- background-repeat: no-repeat;
- background-position: center;
- border-width: 1px;
- border-color: #ffffff;
- cursor: pointer;
+  background-image: url(../img/icons/heart.png);
+  width:50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-width: 1px;
+  border-color: #ffffff;
+  cursor: pointer;
+  margin-top: 80px;
+  margin-left: 35px;
+}
+.new-collection-button:hover .button-heart {
+  background-color:#1abc9c;
 }
 .button-double-line {
   background-image: url(../img/icons/double-line.png);
@@ -254,6 +272,10 @@ img {
   border-width: 1px;
   border-color: #ffffff;
   cursor: pointer;
+  margin-top: 80px;
+}
+.new-collection-button:hover .button-double-line {
+  background-color:#1abc9c;
 }
 .button-clock {
   background-image:url(../img/icons/clock.png); 
@@ -264,6 +286,9 @@ img {
   border-width: 1px;
   border-color: #ffffff;
   cursor: pointer;
+}
+.new-collection-button:hover .button-clock {
+  background-color:#1abc9c;
 }
 .button-cart {
  background-image:url(../img/icons/cart.png); 
@@ -278,15 +303,21 @@ img {
  border-color: #ffffff;
  cursor: pointer;
  font-size: 14px;
- line-height: 32;
  text-transform: uppercase; 
+ margin-left: 35px;
+ color: #ffffff;
+ padding-left: 30px;
+ vertical-align: middle;
 }
+
 .footer {
   margin: 0 auto;
   background-color: #323232;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 26px;
+  padding-bottom: 27px;
+  height: 88px;
+  width: 100%;
 }
 .information {
   /* Style for "All Rights" */
@@ -298,9 +329,11 @@ img {
   font-weight: 400;
   line-height: 28px;
   color: #fefefe;
+  text-transform: capitalize;
 }
-.information.a {
+a {
   text-decoration: none;
 /* Text style for "ThemenGrap" */
 color: #46bfa9;
 }
+
