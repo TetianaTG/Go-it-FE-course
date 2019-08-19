@@ -241,10 +241,11 @@ img {
   position: absolute;
   top: 8px;
   left: 10px;
+  margin-bottom: 10px;
   opacity: 0;
   background-color: rgba (0, 0, 0, 0.6);
   width: 235px;
-  height: 243px;
+  height: 235px;
   border: 1px solid #ffffff;
   transition: 0.3s;
 }
@@ -256,9 +257,10 @@ img {
   background-image: url(../img/icons/heart.png);
   width:50px;
   height: 50px;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  border-width: 1px;
+  border: 1px solid;
   border-color: #ffffff;
   cursor: pointer;
   margin-top: 80px;
@@ -273,9 +275,11 @@ img {
   height: 50px;
   background-repeat: no-repeat;
   background-position: center;
-  border-width: 1px;
+  border: 0;
   border-color: #ffffff;
   cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   margin-top: 80px;
 }
 .new-collection-button:hover .button-double-line {
@@ -287,8 +291,10 @@ img {
   height: 50px;
   background-repeat: no-repeat;
   background-position: center;
-  border-width: 1px;
   border-color: #ffffff;
+  border: 0;
+  background-color: transparent;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 .new-collection-button:hover .button-clock {
@@ -301,14 +307,12 @@ img {
  background-color: #323232;
  background-repeat: no-repeat;
  background-position: 10px;
- border-width: 1px;
- border: solid;
- border-width: 1px;
- border-color: #ffffff;
+ border: solid 1px;
  font-size: 14px;
  text-transform: uppercase; 
  margin-left: 35px;
- color: #ffffff;
+ color:#ffffff;
+ border-color: #ffffff;
  padding-left: 30px;
  vertical-align: middle;
 }
