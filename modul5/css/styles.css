@@ -76,10 +76,12 @@ img {
   display: block;
   height: 600px;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-color: #000002;
   margin-bottom: 95px;
+  background-position: center;
+  background-image: url(..img/img1.png);
+  filter: brightness(55%);
 }
 .slider-ctrl {
   display: inline-block;
@@ -243,11 +245,12 @@ img {
   background-color: rgba (0, 0, 0, 0.6);
   width: 235px;
   height: 243px;
-  border: 1px solid  #1abc9c;
+  border: 1px solid #ffffff;
   transition: 0.3s;
 }
 .new-collection-picture:hover .new-collection-button {
   opacity:1;
+  background-color: rgb(0, 0,2,0.52);
 }
 .button-heart {
   background-image: url(../img/icons/heart.png);
@@ -302,7 +305,6 @@ img {
  border: solid;
  border-width: 1px;
  border-color: #ffffff;
- cursor: pointer;
  font-size: 14px;
  text-transform: uppercase; 
  margin-left: 35px;
