@@ -72,10 +72,10 @@ img {
 }
 .slider::before {
  position: absolute;
+ content: "";
  display: block;
  background-repeat: no-repeat;
  background-size: cover;
-margin-bottom: 95px;
 background-position: center;
 background-image: url(../img/img1.png);
  z-index: 0;
