@@ -71,7 +71,7 @@ img {
 .slider {
   margin:0 auto;
 }
-.slider {
+.slider::before {
   position: relative;
   display: block;
   min-height: 600px;
@@ -81,13 +81,17 @@ img {
   background-position: center;
   background-image: url(../img/img1.png);
   filter: brightness(55%);
+  z-index: 1;
 }
-.slider--inner {
+.slider--inner:after {
+  content: "";
+  display: block; 
   position: relative;
-  z-index: 3;
+  z-index:03;
   padding: 200px 0px; 
   color:#ffffff; 
   margin: 0 auto;
+  z-index: 3;
 }     
 .slider-ctrl {
   display: inline-block;
