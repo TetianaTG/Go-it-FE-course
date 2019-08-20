@@ -26,9 +26,6 @@ img {
     content: '';
     clear: both;
 }
-.basic {
-    background-color: #e9f0fd;
-}
   /* My header*/
 .page-header {
     margin-top: 38px;
@@ -124,11 +121,7 @@ z-index: 1;
 .slider-title {
   margin: 0;
   padding: 0;
-  top: 50%;
-  left:56%;
-  transform: translate(-50%,-50%);
   /* Style for "AFFORDABLE" */
-  width: 800px;
   line-height: 82px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -138,12 +131,8 @@ z-index: 1;
 }
 .slider-text {
 /* Text style for "PARIS TOUR" */
-   top: 60%;
-   left: 56%;
-   transform: translate(-50%,-50%);
    padding: 0;
    margin: 0;
-   width: 800px;
    font-family: "Roboto", sans-serif;
    font-size: 24px;
    line-height: 54px;
