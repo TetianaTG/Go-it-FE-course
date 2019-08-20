@@ -70,29 +70,25 @@ img {
 /* slider */
 .slider {
   margin:0 auto;
+  min-height: 600px;
+  position: relative;
 }
 .slider::before {
-  position: relative;
-  display: block;
-  min-height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 95px;
-  background-position: center;
-  background-image: url(../img/img1.png);
-  filter: brightness(55%);
-  z-index: 1;
+ position: absolute;
+ display: block;
+ background-repeat: no-repeat;
+ background-size: cover;
+margin-bottom: 95px;
+background-position: center;
+background-image: url(../img/img1.png);
+ z-index: 0;
 }
-.slider--inner:after {
-  content: "";
-  display: block; 
-  position: relative;
-  z-index:03;
-  padding: 200px 0px; 
-  color:#ffffff; 
+.slider--inner {
+position: relative;
+padding: 200px 0px; 
   margin: 0 auto;
-  z-index: 3;
-}     
+z-index: 1;
+}
 .slider-ctrl {
   display: inline-block;
   position: absolute;
@@ -128,7 +124,6 @@ img {
 .slider-title {
   margin: 0;
   padding: 0;
-  position: absolute;
   top: 50%;
   left:56%;
   transform: translate(-50%,-50%);
@@ -143,7 +138,6 @@ img {
 }
 .slider-text {
 /* Text style for "PARIS TOUR" */
-   position: absolute;
    top: 60%;
    left: 56%;
    transform: translate(-50%,-50%);
