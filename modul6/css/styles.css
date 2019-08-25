@@ -195,17 +195,17 @@ img {
 }
 .team-text {
     /* Style for "Lorem ipsu" */
-color: #999999;
-font-family: 'Roboto', sans-serif;
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-width: 980px;
-margin: 0;
-padding: 0;
-text-align: center;
-padding-left: 130px;
-margin-bottom: 92px;
+ color: #999999;
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ width: 980px;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ padding-left: 130px;
+ margin-bottom: 92px;
 }
 .team-list {
  display: flex;
@@ -263,7 +263,7 @@ margin-bottom: 92px;
 .member-img:hover {
  transform: translate(-10px,-10px);
 }
-.member-img::before{
+.member-img::before {
  content: "";
  display: block;
  position: absolute;
@@ -272,9 +272,13 @@ margin-bottom: 92px;
  height: 470px;
  background: linear-gradient(
  to bottom,
-      rgba(238, 137, 138, 0.9),
-      rgba(238, 215, 136, 0.9));
- transition: 0.2s linear;
+             rgba(238, 137, 138, 0.9),
+             rgba(238, 215, 136, 0.9));
+
+z-index: 0;
+}
+.team-img:hover{
+    opacity:0.9
 }
 .team-list-member::after {
  content: "";
