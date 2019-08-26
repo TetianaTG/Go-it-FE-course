@@ -294,7 +294,9 @@ opacity: 1;
 .team-list-member:hover .member-img::before{
     opacity: 1;
 }
-
+.team-list-member:hover .team-icons {
+    opacity: 1;
+  }
 .team-list-member::after {
  content: "";
  display: block;
