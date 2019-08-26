@@ -263,6 +263,19 @@ img {
 .member-img:hover {
  transform: translate(-10px,-10px);
 }
+.team-img {
+ display: block;
+ object-fit: cover;
+ transition: 200ms linear,
+ transform 200ms linear;
+}
+.member-img {
+ position: relative;
+ width: 380px;
+ height: 470px;
+ transform: translate(0, 0);
+ transition: 0.2s linear;
+}
 .member-img::before {
  content: "";
  display: block;
@@ -272,13 +285,9 @@ img {
  height: 470px;
  background: linear-gradient(
  to bottom,
-             rgba(238, 137, 138, 0.9),
-             rgba(238, 215, 136, 0.9));
-
-z-index: 0;
-}
-.team-img:hover{
-    opacity:0.9
+     rgba(238, 137, 138, 0.9),
+     rgba(238, 215, 136, 0.9));
+ z-index: 0;
 }
 .team-list-member::after {
  content: "";
@@ -290,7 +299,7 @@ z-index: 0;
  height: 470px;
  background-color: #95e1d3;
  transition: 0.2s linear;
-}
+} 
 .team-list-member-name {
  margin: 0;
  padding: 0;
