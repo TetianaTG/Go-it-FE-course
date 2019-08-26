@@ -215,9 +215,6 @@ img {
  padding: 0;
  position: relative;
 }
-.member-img:hover {
- opacity: 1;
-}
 .team-icons {
  position: absolute;
  display: flex;
@@ -231,7 +228,11 @@ img {
  margin-left: 70px;
  justify-content: space-between;
  transition: 0.2s linear;
- z-index: 4;
+ opacity: 0;
+ z-index:3;
+}
+.member-img:hover.team-icons {
+opacity: 1;
 }
 .internet {
  width: 56px;
@@ -255,7 +256,7 @@ img {
  background-image: url(../img/icons/instagram.png);
  border-right:none;
 }
-.internet:hover  {   
+.internet:hover {   
  background-color:#95e1d3; 
  border: 1px solid #95e1d3;
  opacity: 1;
@@ -287,8 +288,13 @@ img {
  to bottom,
      rgba(238, 137, 138, 0.9),
      rgba(238, 215, 136, 0.9));
- z-index: 0;
+ z-index: 1;
+ opacity: 0;
 }
+.team-list-member:hover .member-img::before{
+    opacity: 1;
+}
+
 .team-list-member::after {
  content: "";
  display: block;
