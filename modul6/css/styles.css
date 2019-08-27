@@ -258,7 +258,6 @@ opacity: 1;
 }
 .internet:hover {   
  background-color:#95e1d3; 
- border: 1px solid #95e1d3;
  opacity: 1;
 }
 .member-img:hover {
@@ -370,8 +369,7 @@ opacity: 1;
  background-color: #95e1d3;
  color: #ffffff;
  padding: 12px 30px;
- font-family: 'Monserrat';
+ font-family: 'Monserrat',sans-serif;
  font-size: 14px;
  font-weight: 700;
- cursor: pointer;
 }
