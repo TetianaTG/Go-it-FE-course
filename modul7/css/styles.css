@@ -1,0 +1,304 @@
+html {
+    box-sizing: border-box;
+}
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+/*fonts for homework */
+/* roboto-slab-fonts */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+  url('../fonts/roboto-slab-v9-cyrillic-regular.woff2') format('woff2'),
+  url('../fonts/roboto-slab-v9-cyrillic-regular.woff') format('woff');
+}
+/* great vibes-fonts */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'),
+  url('../fonts/great-vibes-v7-latin-regular.woff2') format('woff2'),
+  url('../fonts/great-vibes-v7-latin-regular.woff') format('woff');
+}
+/* montserrat-fonts */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+  url('../fonts/montserrat-v14-cyrillic-regular.woff2') format('woff2'),
+  url('../fonts/montserrat-v14-cyrillic-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+  url('../fonts/montserrat-v14-cyrillic-700.woff2') format('woff2'),
+  url('../fonts/montserrat-v14-cyrillic-700.woff') format('woff');
+}
+/* goudy-fonts */
+@font-face {
+  font-family: 'Goudy Bookletter 1911';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Goudy Bookletter 1911'), local('GoudyBookletter1911'),
+  url('../fonts/goudy-bookletter-1911-v9-latin-regular.woff2') format('woff2'),
+  url('../fonts/goudy-bookletter-1911-v9-latin-regular.woff') format('woff');
+}
+body {
+  color: #777777;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}  
+.container {
+  width: 940px;
+  margin: 0 auto; 
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* my header start */
+.page-header {
+ margin-top:55px;
+}  
+.page-nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-family: 'Montserrat', 'Arial', sans-serif;
+} 
+.site-logo {
+ display: flex;
+ margin: 0;
+ text-decoration: none;
+} 
+/* Style for "golden" */
+.picture-logo {
+ width: 79px;
+ height: 28px;
+ color: #fed136;
+ font-family: 'Great Vibes', cursive;
+ font-size: 26px;
+ font-weight: 400;
+ line-height: 41px;
+ letter-spacing: 1.3px;
+ text-transform: capitalize;
+ vertical-align: middle;
+}
+.site-navigation {
+ display: flex;
+ margin: 0;
+ list-style: none;
+ justify-content: space-between;
+ width: 490px;
+ align-items: center;
+ text-transform: uppercase;
+}
+.site-navigation a {
+ text-decoration: none;
+ color: #222222;
+ font-size: 14px;
+ font-weight: 700;
+ transition-property: color;
+ transition: color 0.2s linear;
+ line-height: 17px;
+ font-style: normal;
+}
+.site-navigation a:hover,
+.site-navigation a :focus {
+  color: #fed136;
+}
+/* my header end */
+/* service start */
+.service {
+ margin-top: 124px;
+}
+.services-title {
+ color: #222222;
+ font-size: 40px;
+ font-weight: 700;
+ text-transform: uppercase;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+ margin-bottom: 10px;
+}
+.title2 {
+ color:#929292;;
+ font-size: 16px;
+ font-weight: 400;
+ font-style: italic;
+ text-align: center;
+ padding: 0;
+ margin: 0;
+ line-height: 19px;
+ margin-bottom: 80px;
+ font-family: 'Goudy Bookletter 1911', 'Arial', sans-serif;
+}
+.service-list {
+ display: flex;
+ justify-content: space-between;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ flex-wrap: wrap;
+}
+.service-icon { 
+  width: 300px;
+  align-items: center;  
+}
+.service-icon::before {
+  content: "";
+  display: block;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 26px;
+  margin: 0 auto;
+}
+.basket::before {
+  background-image: url(../img/Basket.png);
+}
+.laptop::before {
+  background-image: url(../img/Laptop.png);
+}
+.dd::before {
+  background-image: url(../img/dd.png);
+}
+.list-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+  color: #222222;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  margin-bottom: 18px;
+}
+.list-text {
+  margin: 0 auto;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto Slab', 'Arial', sans-serif;
+  margin-top: 12px;
+  padding-bottom: 120px;
+  padding-right: 10px;
+  text-align: center;
+}
+/* section contact start */
+.contact {
+  background-color: #222222;
+  padding-top: 110px;
+  height: 676px;
+  background-image: url(../img/Image.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+}
+.contact-title1 {
+  /* Style for "Contact us" */
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.contact-title2 {
+  margin: 0;
+  padding: 0;
+  color: #777777;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', 'Arial', sans-serif;
+  margin-bottom: 75px;
+}
+.contact-form div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 210px;
+  margin-bottom: 30px;
+}
+.input-list {
+  margin-bottom: 30px;
+  width: 455px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin-left: 30px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+.input-list::placeholder {
+  color: #bbbbbb;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+.validation:focus:valid {
+  outline: 3px solid green;
+}
+.validation:focus:invalid {
+  outline: 3px solid red;
+}
+.input-textarea {
+  width: 455px;
+  height: 210px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  margin-top: -25.5%;
+  margin-left: 55%;
+}
+.input-textarea::placeholder {
+  color: #bbbbbb;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+/* section contact end */
+/* button start */
+.form-button {
+  width: 240px;
+  height: 66px;
+  background-color: #fed136;
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* button end */
