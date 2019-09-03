@@ -69,30 +69,17 @@ img {
 .page-header {
  margin-top:55px;
 }  
+.site-logo {
+  display: flex;
+  margin: 0;
+  text-decoration: none;
+ } 
 .page-nav {
  display: flex;
  justify-content: space-between;
  align-items: center;
  font-family: 'Montserrat', 'Arial', sans-serif;
 } 
-.site-logo {
- display: flex;
- margin: 0;
- text-decoration: none;
-} 
-/* Style for "golden" */
-.picture-logo {
- width: 79px;
- height: 28px;
- color: #fed136;
- font-family: 'Great Vibes', cursive;
- font-size: 26px;
- font-weight: 400;
- line-height: 41px;
- letter-spacing: 1.3px;
- text-transform: capitalize;
- vertical-align: middle;
-}
 .site-navigation {
  display: flex;
  margin: 0;
@@ -292,7 +279,6 @@ img {
   background-color: #fed136;
   border: none;
   border-radius: 2px;
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   color: #ffffff;
@@ -300,5 +286,6 @@ img {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  position: relative;
 }
 /* button end */
