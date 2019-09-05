@@ -51,17 +51,26 @@ input[type="”radio”"].visually-hidden {
   background-position: top center;
 }
 .navigation {
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin: 0 auto 114px;
+}
 .navigation-variation{
  padding: 0;
  border: 2px solid rgba(255, 255, 255, 0);
  transition: 0.3s;
+}
+.site-navigation {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ list-style: none;
+ padding: 0;
+ text-align: center;
+ margin: 0 auto;
+ text-align: center;
 }
 .navigation-variation a {
   display: inline-block;
@@ -87,15 +96,16 @@ input[type="”radio”"].visually-hidden {
 }
 .site-logo {
 /* Style for "URLAUBSGLÜ" */
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;  
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
-  display:inline-block;
-  margin-left: auto;
-  margin-right: auto; 
+  text-decoration: none; 
+  text-align: center;
 }
 .title {
   text-align: center;
