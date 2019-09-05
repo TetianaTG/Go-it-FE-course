@@ -51,21 +51,13 @@ input[type="”radio”"].visually-hidden {
   background-position: top center;
 }
 .navigation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 20px;
-  margin: 0 auto 114px;
-}
-.site-navigation {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- list-style: none;
- padding: 0;
- text-align: center;
- margin: 0 auto;
-}
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  }
 .navigation-variation{
  padding: 0;
  border: 2px solid rgba(255, 255, 255, 0);
@@ -94,18 +86,16 @@ input[type="”radio”"].visually-hidden {
   transition: 0.3s     
 }
 .site-logo {
-/* Style for "URLAUBSGLÜ" */ 
-  height: 20px;
-  text-align: center;
+/* Style for "URLAUBSGLÜ" */
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  margin:0; 
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto; 
 }
 .title {
   text-align: center;
@@ -228,7 +218,7 @@ input[type="”radio”"].visually-hidden {
 @media (min-width: 768px) {
 .page-header {
   height: 700px;
-  background-size: auto 700px;
+  background-size: cover;
 }
 .container {
   width: 660px;
