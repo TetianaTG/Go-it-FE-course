@@ -55,7 +55,7 @@ input[type="”radio”"].visually-hidden {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 20px;
-  margin: 0 auto 114px;
+  margin: 0 auto;
 }
 .navigation-variation{
  padding: 0;
@@ -106,6 +106,10 @@ input[type="”radio”"].visually-hidden {
   text-transform: uppercase;
   text-decoration: none; 
   text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  margin-top: 115px;
+  order: 2;
 }
 .title {
   text-align: center;
@@ -116,6 +120,7 @@ input[type="”radio”"].visually-hidden {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 .text {
   text-align: center;
@@ -123,7 +128,8 @@ input[type="”radio”"].visually-hidden {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 300;
-  margin: 0 auto 17px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .header-button {
  /* Style for "Rectangle" */
@@ -240,10 +246,12 @@ input[type="”radio”"].visually-hidden {
   margin: 38px 0 0 0;
   justify-items: center;
   padding: 8px 0;
+  order: unset;
 }
 .site-navigation {
   margin: 38px;
   padding:0;
+  margin-bottom: 160px;
 }
 .navigation-variation {
   margin: 0;
@@ -254,6 +262,7 @@ input[type="”radio”"].visually-hidden {
   font-size: 52px;
   width: 504px;
   margin: 0 auto;
+  margin-top:40px;
 }
 .text {
   font-size: 24px;
@@ -262,6 +271,7 @@ input[type="”radio”"].visually-hidden {
 .header-button {
   margin-top: 35px;
   width: 224px;
+  margin-bottom: 234px;
 }
 .team-list {
   display: flex;
