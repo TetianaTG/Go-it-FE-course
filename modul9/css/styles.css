@@ -124,13 +124,13 @@ input[type="”radio”"].visually-hidden {
     font-weight: 300;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .header-button {
     /* Style for "Rectangle" */
-     width: 225px;
      height: 40px;
      background-color: #ff4e50;
-     margin-top: 20px;
+     margin-top: 30px;
      border-radius: 100px 100px 100px 100px;
      color: #ffffff;
      font-family: 'Monserat', sans-serif;
@@ -233,7 +233,6 @@ input[type="”radio”"].visually-hidden {
       background-size: cover;
     }
     .container {
-      width: 660px;
       flex-direction: row;
       justify-content: space-between;
       margin: 0 auto;
@@ -274,7 +273,6 @@ input[type="”radio”"].visually-hidden {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 492px;
       margin: 0 auto 38px;
     }
     .contact-button {
@@ -282,12 +280,5 @@ input[type="”radio”"].visually-hidden {
       width: 192px;
     }
   @media (min-width: 1440px) {
-    .container {
-      width: 940px;
-      padding: 0;
-    }
-    .team-list {
-     width: 940px;
-    }
 }
   
