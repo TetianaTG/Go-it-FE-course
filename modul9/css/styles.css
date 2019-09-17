@@ -235,14 +235,15 @@ input[type="”radio”"].visually-hidden {
     }
    
     .site-logo { 
-      margin: 38px 0 0 0;
+      margin-top: 40px;
       justify-items: center;
       padding: 8px 0;
       order: unset;
     }
     .site-navigation {
-      margin: 28px;
-      padding:0;
+      padding-top:20px;
+     
+      margin: 0;
       margin-bottom: 160px;
     }
     .navigation-variation {
@@ -267,7 +268,7 @@ input[type="”radio”"].visually-hidden {
       padding-top:14px;
       padding-bottom: 14px;
       padding-left: 25px;
-      padding-right: 25px;
+      padding-right: 25px; 
       margin-bottom: 235px;
      }
     .team-list {
@@ -281,7 +282,6 @@ input[type="”radio”"].visually-hidden {
       width: 192px;
     }
     .list-name {
-    left: 80px;
     margin-right: 0;
     }
   @media (min-width: 1440px) {
