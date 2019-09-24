@@ -305,9 +305,6 @@ img {
    transition: 0.2s linear;
    opacity: 0;
    z-index:3;
-   fill: #f38181;
-   width: 26px;
-   height: 26px;
   }
 .member-img:hover.team-icons {
   opacity: 1;
@@ -320,6 +317,7 @@ img {
    border-right: 1px solid #f38181;
    transition: 0.2s linear;
    z-index: 2;
+   fill: #f38181;
 }
 .internet:hover {   
    background-color:#95e1d3; 
