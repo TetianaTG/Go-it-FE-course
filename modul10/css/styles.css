@@ -317,7 +317,13 @@ img {
    border-right: 1px solid #f38181;
    transition: 0.2s linear;
    z-index: 2;
-   fill: #f38181;
+   fill:#f38181;
+}
+.team-icons__internet  svg {
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+    fill: #f38181;
 }
 .internet:hover {   
    background-color:#95e1d3; 
