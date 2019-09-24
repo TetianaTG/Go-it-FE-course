@@ -177,18 +177,27 @@ img {
     margin-top: 40px;
 }
 .service-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  list-style: none;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.service-list-item {
+    width: 334px;
+    position: relative;
+    padding-left: 80px;
+    margin: 30px 20px 20px 0; 
+    padding-bottom: 0;
+
+}
+.service-list-item:nth-child(3n) {
+    margin-right: 0;
 }
 .service-list__list-title {
     margin-top: 0;
@@ -210,6 +219,9 @@ img {
 .services-icon {
     position: absolute;
     fill: #95e1d3;
+    top: 0;
+    left: 0;
+    transform: translateX(50%);
 }
 .team-icons__link{
     fill: #95e1d3;  
