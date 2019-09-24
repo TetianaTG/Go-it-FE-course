@@ -207,21 +207,13 @@ img {
     line-height: 24px;
     margin-bottom: 92px;
 }
-.service-list__service-icon {
-    flex-basis: 381px;
-    position: relative;
-    padding: 0;
-    background-repeat: no-repeat;
-    padding-left: 70px;
-    opacity: 0;
-}
 .services-icon {
     position: absolute;
     fill: #95e1d3;
+    top: 20%;
 }
 .team-icons__link{
-    fill: #95e1d3; 
-   
+    fill: #95e1d3;  
 }
 
   /* service-section end */
@@ -318,11 +310,6 @@ img {
    transition: 0.2s linear;
    z-index: 2;
    fill:#f38181;
-}
-.team-icons__link svg {
-    width: 26px;
-    height: 21px;
-    fill: #f38181;
 }
 .internet:hover {   
    background-color:#95e1d3; 
