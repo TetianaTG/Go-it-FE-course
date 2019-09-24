@@ -310,7 +310,7 @@ img {
    z-index: 2;
    fill:#f38181;
 }
-.internet:hover {   
+.team-icons__internet:hover {   
    background-color: #f38181; 
    fill:#ffffff;
    opacity: 1;
