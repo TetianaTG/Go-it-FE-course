@@ -96,6 +96,10 @@ img {
     color: #fce38a;
     fill: #fce38a; 
 } 
+.site-navigation__list-icon {
+ fill: #ffffff; 
+ color: #ffffff; 
+}
   /* my header end*/
 .title {
     width: 840px;
@@ -219,6 +223,7 @@ img {
     fill: #95e1d3; 
    
 }
+
   /* service-section end */
   /* section-team start*/
 .team {
