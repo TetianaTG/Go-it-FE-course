@@ -308,6 +308,8 @@ img {
   }
 .member-img:hover.team-icons {
   opacity: 1;
+  background-color: #f38181;
+  fill: #ffffff;
   }
 .team-icons__internet {
    width: 56px;
@@ -319,12 +321,7 @@ img {
    z-index: 2;
    fill:#f38181;
 }
-.team-icons__internet  svg {
-    display: inline-block;
-    width: 26px;
-    height: 21px;
-    fill: #f38181;
-}
+
 .internet:hover {   
    background-color:#95e1d3; 
    opacity: 1;
