@@ -177,18 +177,18 @@ img {
     margin-top: 40px;
 }
 .service-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style: none;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .service-list__list-title {
     margin-top: 0;
@@ -214,7 +214,6 @@ img {
 .team-icons__link{
     fill: #95e1d3;  
 }
-
   /* service-section end */
   /* section-team start*/
 .team {
@@ -312,7 +311,7 @@ img {
    padding-left: 15px;
    padding-right: 15px;
    padding-bottom: 15px;
-   padding-bottom: 15px;
+   padding-top: 15px;
 }
 .team-icons__internet:hover {   
    background-color: #f38181; 
