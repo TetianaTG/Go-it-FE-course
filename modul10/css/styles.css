@@ -210,7 +210,6 @@ img {
 .services-icon {
     position: absolute;
     fill: #95e1d3;
-    top: 20%;
 }
 .team-icons__link{
     fill: #95e1d3;  
@@ -289,6 +288,7 @@ img {
    height: 56px;
    background-color: #fce38a;
    cursor: pointer;
+   top: 35%;
    margin-left: 70px;
    -webkit-box-pack: justify;
    -ms-flex-pack: justify;
@@ -311,7 +311,8 @@ img {
    fill:#f38181;
 }
 .internet:hover {   
-   background-color:#95e1d3; 
+   background-color: #f38181; 
+   fill:#ffffff;
    opacity: 1;
 }
 .member-img:hover {
