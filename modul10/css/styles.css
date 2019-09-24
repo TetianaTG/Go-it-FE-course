@@ -309,6 +309,10 @@ img {
    transition: 0.2s linear;
    z-index: 2;
    fill:#f38181;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 .team-icons__internet:hover {   
    background-color: #f38181; 
