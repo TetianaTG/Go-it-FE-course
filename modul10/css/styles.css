@@ -193,7 +193,7 @@ img {
     flex-wrap: wrap;
     list-style: none;
 }
-.service-list-item {
+.service-list__item {
     width: 384px;
     position: relative;
     padding-left: 80px;
@@ -201,7 +201,7 @@ img {
     padding-bottom: 0;
 
 }
-.service-list-item:nth-child(3n) {
+.service-list__item:nth-child(3n) {
     margin-right: 0;
 }
 .service-list__list-title {
