@@ -1,0 +1,50 @@
+.service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  flex-wrap: wrap;
+}
+
+.service-list__item {
+  width: 384px;
+  position: relative;
+  padding-left: 80px;
+  padding-bottom: 0;
+
+}
+
+.service-list__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.services-icon {
+  position: absolute;
+  fill: $primary-icon-color;
+  top: 0;
+  left: 0;
+  transform: translateX(50%);
+}
+
+.service-list__list-title {
+  margin-top: 0;
+  color: $secondary-dark-color;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.service-list__list-text {
+    /* Style for "Ipsum dolo" */
+  color: $primary-dark-color;
+  font-family: $other-font-stack;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 92px;
+}

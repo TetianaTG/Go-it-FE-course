@@ -1,0 +1,18 @@
+  
+.header-button {
+  margin: 0 auto;
+  width: 160px;
+}
+
+.button1 {
+  @include font-settings (14px, 700);
+  width: 160px;
+  height: 40px;
+  border: 3px solid $primary-white-color;
+  color: $primary-white-color;
+  font-family: $main-font-stack;
+  text-transform: uppercase;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

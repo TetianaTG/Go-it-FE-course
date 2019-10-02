@@ -1,0 +1,43 @@
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: $main-font-stack;
+  margin-bottom: 142px;
+}
+
+.site-navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 620px;
+  margin: 0;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.picture-logo {
+  margin: 0;
+  width: 86px;
+  height: 23px;
+  color: $primary-white-color;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.site-navigation__link {
+  @include font-settings (14px, 400);
+  text-decoration: none;
+  color: $primary-white-color;
+  padding: 10px 0;
+  fill: $primary-white-color;
+  
+  &:hover {
+    color: $hover-color;
+    fill: $hover-color;
+  }
+}
+
+.site-navigation__link--hover:hover {
+  border-bottom: 3px solid $hover-color;
+}  

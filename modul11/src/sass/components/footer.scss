@@ -1,0 +1,45 @@
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 61px;
+  border-top: $border-color solid 1px;
+}
+
+.footer__info {
+  @include font-settings (14px, 400);margin: 0;
+  color: $secondary-dark-color;
+  font-family: $main-font-stack;
+}
+
+.footer__info a {
+  text-decoration: none;
+  color: #f38181;
+}
+
+.input__forma {
+  display: flex;  
+}
+
+.input__area {
+  width: 230px;
+  height: 40px;
+  border: $border-color solid 1px;
+  padding: 14px 12px; 
+  font-family: $other-font-stack;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.input__button {
+  @include font-settings (14px, 700);
+  color: $primary-white-color;
+  font-family: $main-font-stack;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  background-color: $primary-icon-color;
+  cursor: pointer;
+}
