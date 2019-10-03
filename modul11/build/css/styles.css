@@ -556,6 +556,17 @@ input[type="radio"].visually-hidden {
   border-bottom: 3px solid #fce38a;
 }
 
+.site-navigation__list-icon {
+  fill: #ffffff;
+  color: #ffffff;
+}
+
+.site-navigation__list-icon:hover {
+  border-bottom: 3px solid #fce38a;
+  color: #fce38a;
+  fill: #fce38a;
+}
+
 .service-list {
   display: -ms-flexbox;
   margin: 0;

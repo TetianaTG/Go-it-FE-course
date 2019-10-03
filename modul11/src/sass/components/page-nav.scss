@@ -40,4 +40,15 @@
 
 .site-navigation__link--hover:hover {
   border-bottom: 3px solid $hover-color;
-}  
+}
+
+.site-navigation__list-icon {
+  fill: $primary-white-color;
+  color: #ffffff; 
+}
+
+.site-navigation__list-icon:hover {
+  border-bottom: 3px solid $hover-color;
+  color: $hover-color;
+  fill: $hover-color;
+}
