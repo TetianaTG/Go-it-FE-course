@@ -45,6 +45,7 @@
 .site-navigation__list-icon {
   fill: $primary-white-color;
   color: #ffffff; 
+  border-bottom: 3px solid transparent;
 }
 
 .site-navigation__list-icon:hover {
