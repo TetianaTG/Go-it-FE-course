@@ -8,6 +8,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .service-list__item {
@@ -15,7 +16,6 @@
   position: relative;
   padding-left: 80px;
   padding-bottom: 0;
-
 }
 
 .service-list__item:nth-child(3n) {
@@ -28,6 +28,7 @@
   top: 0;
   left: 0;
   transform: translateX(50%);
+  list-style: none;
 }
 
 .service-list__list-title {

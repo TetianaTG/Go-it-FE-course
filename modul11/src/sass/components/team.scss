@@ -33,6 +33,7 @@
   margin: 0;
   color: $secondary-dark-color;
   margin-bottom: 65px;
+  text-transform: uppercase;
   
   &::after {
     content: '';
@@ -95,7 +96,7 @@
   padding-top: 15px;
 }
 
-:hover .team-icons__internet {   
+.team-icons__internet:hover {   
   background-color: #f38181; 
   fill:#ffffff;
   opacity: 1;
@@ -177,5 +178,6 @@
   font-style: italic;
   line-height: 24px;
   margin: 0;
+  margin-bottom: 82px;
 }
     
