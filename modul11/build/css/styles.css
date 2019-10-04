@@ -761,6 +761,10 @@ input[type="radio"].visually-hidden {
   padding-top: 15px;
 }
 
+.instagram:last-child {
+  border-right: none;
+}
+
 .team-icons__internet:hover {
   background-color: #f38181;
   fill: #ffffff;

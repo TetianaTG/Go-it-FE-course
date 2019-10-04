@@ -2,7 +2,7 @@
   padding: 0;
   margin-bottom: 78px;
 }
-
+  
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,7 +15,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
 }
-
+  
 .team__title1 {
   @include font-settings (24px , 400);
   font-family: 'Kaushan Script', 'Arial', sans-serif;
@@ -24,7 +24,7 @@
   margin: 44px 0 22px 0;
   color: $secondary-dark-color;
 } 
-
+  
 .team__title2 {
   @include font-settings (30px, 700);
   font-family: $main-font-stack;
@@ -34,7 +34,7 @@
   color: $secondary-dark-color;
   margin-bottom: 65px;
   text-transform: uppercase;
-  
+    
   &::after {
     content: '';
     display: block;
@@ -44,9 +44,9 @@
     margin: 42px auto 0;
   }
 }
-
+  
 .team__text {
-    /* Style for "Lorem ipsu" */
+      /* Style for "Lorem ipsu" */
   color: $primary-dark-color;;
   font-family: $other-font-stack;
   font-size: 15px;
@@ -59,7 +59,7 @@
   padding-left: 130px;
   margin-bottom: 92px;
 }
-
+  
 .team-icons {
   position: absolute;
   display: -webkit-box;
@@ -78,9 +78,9 @@
   justify-content: space-between;
   transition: 0.2s linear;
   opacity: 0;
-  z-index:3;
+  z-index: 3;
 }
-
+  
 .team-icons__internet {
   width: 56px;
   height: 56px;
@@ -89,25 +89,29 @@
   border-right: 1px solid #f38181;
   transition: 0.2s linear;
   z-index: 2;
-  fill:#f38181;
+  fill: #f38181;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
+.instagram:last-child  {
+  border-right: none;
+}
+  
 .team-icons__internet:hover {   
   background-color: #f38181; 
-  fill:#ffffff;
+  fill: #ffffff;
   opacity: 1;
 }
-
+  
 .team-img {
   display: block;
   object-fit: cover;
   transition: 200ms linear,transform 200ms linear;
 }
-
+  
 .member-img {
   position: relative;
   width: 380px;
@@ -115,7 +119,7 @@
   transform: translate(0, 0);
   transition: 0.2s linear;
 }
-
+  
 .member-img::before {
   content: "";
   display: block;
@@ -124,29 +128,29 @@
   width: 380px;
   height: 470px;
   background: linear-gradient(
-  to bottom,
-        rgba(238, 137, 138, 0.9),
-        rgba(238, 215, 136, 0.9));
+    to bottom,
+          rgba(238, 137, 138, 0.9),
+          rgba(238, 215, 136, 0.9));
   z-index: 1;
   opacity: 0;
 }
-
+  
 .member-img:hover {
   transform: translate(-10px,-10px);
 }
-
+  
 .member-img:hover.team-icons {
   opacity: 1;
 }
-
+  
 .team__list-member:hover .member-img::before{
   opacity: 1;
 }
-
+  
 .team__list-member:hover .team-icons {
   opacity: 1;
 }
-
+  
 .team__list-member::after {
   content: "";
   display: block;
@@ -158,7 +162,7 @@
   background-color: #95e1d3;
   transition: 0.2s linear;
 } 
-
+  
 .team-list__member-name {
   font-family: $main-font-stack;
   font-weight: 400;
@@ -168,7 +172,7 @@
   text-align: center;
   margin: 29px auto 14px;
 }
-
+  
 .team-list__prof {
   font-family: $other-font-stack;
   font-weight: 400;
@@ -180,4 +184,3 @@
   margin: 0;
   margin-bottom: 82px;
 }
-    
